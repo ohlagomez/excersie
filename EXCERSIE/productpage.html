@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      const buttons = document.querySelectorAll('.hero-btn');
+      buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+          alert('Thank you for buying!');
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="homepage.html"><img src="logo-removebg-preview.png"></a>
+      <div class="nav-links">
+        <ul>
+          <li><a href="homepage.html">HOME</a></li>
+          <li><a href="aboutpage.html">ABOUT</a></li>
+          <li><a href="productpage.html">PRODUCTS</a></li>
+          <li><a href="gallerypage.html">GALLERY</a></li>
+          <li><a href="contactpage.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Our Products</h1>
+  </section>
+
+  <section class="product">
+    <h1>Our Products</h1>
+    <p>Buy The Things You Want!!</p>
+    <div class="row">
+      <div class="product-col">
+        <img src="top.jpeg">
+        <h3>Geo Print Sweetheart Neck Bodycon Dress</h3>
+        <p>Php. 183.00</p>
+        <a href="" class="hero-btn red-btn">BUY NOW</a>
+      </div>
+      <div class="product-col">
+        <img src="dress1.png">
+        <h3>Geo Print Sweetheart Neck Bodycon Dress</h3>
+        <p>Php. 288.00</p>
+        <a href="" class="hero-btn red-btn">BUY NOW</a>
+      </div>
+      <div class="product-col">
+        <img src="pants.png">
+        <h3>Honeyspot Drawstring Waist Wide Leg Pants</h3>
+        <p>Php. 361.00</p>
+        <a href="" class="hero-btn red-btn">BUY NOW</a>
+      </div>
+      <div class="product-col">
+        <img src="topps.png">
+        <h3>MOD Floral Print Square Neck Tee Top</h3>
+        <p>Php. 196.00</p>
+        <a href="" class="hero-btn red-btn">BUY NOW</a>
+      </div>
+      <div class="product-col">
+        <img src="dress.png">
+        <h3>Lace Up Front Flounce Sleeve Layer Hem Dress</h3>
+        <p>Php. 768.00</p>
+        <a href="" class="hero-btn red-btn">BUY NOW</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+      <p>Made by Marienorelyne</p>
+    </div>
+  </section>
+</body>
+</html>
